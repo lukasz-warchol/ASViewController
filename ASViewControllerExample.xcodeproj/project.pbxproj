@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8666D080155053C300B1635D /* ASViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8666D07F155053C300B1635D /* ASViewController.m */; };
+		8666D081155053C300B1635D /* ASViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8666D07F155053C300B1635D /* ASViewController.m */; };
+		8666D084155053E400B1635D /* ASViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 8666D083155053E400B1635D /* ASViewControllerSpec.m */; };
+		8666D0871550541A00B1635D /* ASEColoredViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8666D0861550541A00B1635D /* ASEColoredViewController.m */; };
+		8666D0881550541A00B1635D /* ASEColoredViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8666D0861550541A00B1635D /* ASEColoredViewController.m */; };
+		8666D09A15505B1900B1635D /* ASFlipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8666D09915505B1900B1635D /* ASFlipViewController.m */; };
+		8666D09B15505B1900B1635D /* ASFlipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8666D09915505B1900B1635D /* ASFlipViewController.m */; };
 		8679C569154E897D00198B69 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8679C568154E897D00198B69 /* UIKit.framework */; };
 		8679C56B154E897D00198B69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8679C56A154E897D00198B69 /* Foundation.framework */; };
 		8679C56D154E897D00198B69 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8679C56C154E897D00198B69 /* CoreGraphics.framework */; };
 		8679C573154E897D00198B69 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8679C571154E897D00198B69 /* InfoPlist.strings */; };
 		8679C575154E897D00198B69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8679C574154E897D00198B69 /* main.m */; };
 		8679C579154E897D00198B69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8679C578154E897D00198B69 /* AppDelegate.m */; };
-		8679C58B154E8A1B00198B69 /* ASViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8679C58A154E8A1B00198B69 /* ASViewController.m */; };
 		8679C592154E8BA600198B69 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8679C568154E897D00198B69 /* UIKit.framework */; };
 		8679C593154E8BA600198B69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8679C56A154E897D00198B69 /* Foundation.framework */; };
 		8679C594154E8BA600198B69 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8679C56C154E897D00198B69 /* CoreGraphics.framework */; };
@@ -24,12 +30,17 @@
 		8679C5C3154E8C0400198B69 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 8679C5BC154E8C0400198B69 /* LICENSE */; };
 		8679C5C4154E8C0400198B69 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8679C5BF154E8C0400198B69 /* README.md */; };
 		8679C5C5154E8C0400198B69 /* OCMock-iPhone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8679C5C0154E8C0400198B69 /* OCMock-iPhone.framework */; };
-		8679C5CD154E8E1500198B69 /* ASViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8679C58A154E8A1B00198B69 /* ASViewController.m */; };
 		8679C5D0154E903B00198B69 /* FakeCopyingArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 8679C5CF154E903B00198B69 /* FakeCopyingArray.m */; };
-		8679C5D2154E904600198B69 /* ASViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 8679C5D1154E904600198B69 /* ASViewControllerSpec.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8666D07E155053C300B1635D /* ASViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASViewController.h; sourceTree = "<group>"; };
+		8666D07F155053C300B1635D /* ASViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASViewController.m; sourceTree = "<group>"; };
+		8666D083155053E400B1635D /* ASViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASViewControllerSpec.m; sourceTree = "<group>"; };
+		8666D0851550541A00B1635D /* ASEColoredViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASEColoredViewController.h; sourceTree = "<group>"; };
+		8666D0861550541A00B1635D /* ASEColoredViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASEColoredViewController.m; sourceTree = "<group>"; };
+		8666D09815505B1900B1635D /* ASFlipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASFlipViewController.h; sourceTree = "<group>"; };
+		8666D09915505B1900B1635D /* ASFlipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASFlipViewController.m; sourceTree = "<group>"; };
 		8679C564154E897D00198B69 /* ASViewControllerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASViewControllerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8679C568154E897D00198B69 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8679C56A154E897D00198B69 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -40,8 +51,6 @@
 		8679C576154E897D00198B69 /* ASViewControllerExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ASViewControllerExample-Prefix.pch"; sourceTree = "<group>"; };
 		8679C577154E897D00198B69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8679C578154E897D00198B69 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8679C589154E8A1B00198B69 /* ASViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASViewController.h; sourceTree = "<group>"; };
-		8679C58A154E8A1B00198B69 /* ASViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASViewController.m; sourceTree = "<group>"; };
 		8679C590154E8BA600198B69 /* UISpecs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UISpecs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8679C597154E8BA600198B69 /* UISpecs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UISpecs-Info.plist"; sourceTree = "<group>"; };
 		8679C599154E8BA600198B69 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -76,7 +85,6 @@
 		8679C5C0154E8C0400198B69 /* OCMock-iPhone.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "OCMock-iPhone.framework"; sourceTree = "<group>"; };
 		8679C5CE154E903B00198B69 /* FakeCopyingArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FakeCopyingArray.h; sourceTree = "<group>"; };
 		8679C5CF154E903B00198B69 /* FakeCopyingArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FakeCopyingArray.m; sourceTree = "<group>"; };
-		8679C5D1154E904600198B69 /* ASViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASViewControllerSpec.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8666D07D155053C300B1635D /* ASViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8666D07E155053C300B1635D /* ASViewController.h */,
+				8666D07F155053C300B1635D /* ASViewController.m */,
+			);
+			path = ASViewController;
+			sourceTree = "<group>";
+		};
+		8666D082155053E400B1635D /* ASViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8666D083155053E400B1635D /* ASViewControllerSpec.m */,
+			);
+			path = ASViewController;
+			sourceTree = "<group>";
+		};
 		8679C559154E897D00198B69 = {
 			isa = PBXGroup;
 			children = (
@@ -161,8 +186,11 @@
 		8679C588154E89C100198B69 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				8679C589154E8A1B00198B69 /* ASViewController.h */,
-				8679C58A154E8A1B00198B69 /* ASViewController.m */,
+				8666D07D155053C300B1635D /* ASViewController */,
+				8666D0851550541A00B1635D /* ASEColoredViewController.h */,
+				8666D0861550541A00B1635D /* ASEColoredViewController.m */,
+				8666D09815505B1900B1635D /* ASFlipViewController.h */,
+				8666D09915505B1900B1635D /* ASFlipViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -233,7 +261,7 @@
 		8679C5C6154E8CC900198B69 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				8679C5D1154E904600198B69 /* ASViewControllerSpec.m */,
+				8666D082155053E400B1635D /* ASViewController */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -338,7 +366,9 @@
 			files = (
 				8679C575154E897D00198B69 /* main.m in Sources */,
 				8679C579154E897D00198B69 /* AppDelegate.m in Sources */,
-				8679C58B154E8A1B00198B69 /* ASViewController.m in Sources */,
+				8666D080155053C300B1635D /* ASViewController.m in Sources */,
+				8666D0871550541A00B1635D /* ASEColoredViewController.m in Sources */,
+				8666D09A15505B1900B1635D /* ASFlipViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,9 +377,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8679C59C154E8BA600198B69 /* main.m in Sources */,
-				8679C5CD154E8E1500198B69 /* ASViewController.m in Sources */,
 				8679C5D0154E903B00198B69 /* FakeCopyingArray.m in Sources */,
-				8679C5D2154E904600198B69 /* ASViewControllerSpec.m in Sources */,
+				8666D081155053C300B1635D /* ASViewController.m in Sources */,
+				8666D084155053E400B1635D /* ASViewControllerSpec.m in Sources */,
+				8666D0881550541A00B1635D /* ASEColoredViewController.m in Sources */,
+				8666D09B15505B1900B1635D /* ASFlipViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,6 +556,7 @@
 				8679C5A3154E8BA600198B69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "ASFlipViewController.h"
+#import "ASEColoredViewController.h"
 
 @implementation AppDelegate
 
@@ -21,9 +23,24 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
-    // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    
+    ASEColoredViewController* redVC = [[[ASEColoredViewController alloc] init] autorelease];
+    redVC.viewColor = [UIColor redColor];
+    ASEColoredViewController* greenVC = [[[ASEColoredViewController alloc] init] autorelease];
+    greenVC.viewColor = [UIColor greenColor];
+    ASEColoredViewController* blueVC = [[[ASEColoredViewController alloc] init] autorelease];
+    blueVC.viewColor = [UIColor blueColor];
+    
+    //Flip view controller contains 3 different subviewcontrollers taht yser can switch between.
+    ASFlipViewController* flipViewController = [[ASFlipViewController alloc] init];
+    flipViewController.viewControllers = [NSArray arrayWithObjects:redVC, greenVC, blueVC, nil];
+
+    UINavigationController* rootViewController = [[UINavigationController alloc]initWithRootViewController:flipViewController];
+    self.window.rootViewController = rootViewController;
+    
     return YES;
 }
 
