@@ -252,12 +252,13 @@ forObjectsPassingTest:(BOOL (^)(id obj, NSUInteger idx, BOOL *stop))predicate
             [toViewController viewDidAppear:animated];
         };
         
-        [UIView transitionFromView:fromViewController.view toView:toViewController.view duration:duration options:options completion:^(BOOL finished) {
-            if (animations) {
-                [UIView animateWithDuration:duration delay:0 options:options animations:animations completion:OnTransitionEndedBlock];
-            }else{
-                OnTransitionEndedBlock(finished);
-            }
+        UIView* fromView = fromViewController.view;
+        UIView* toView = toViewController.view;
+        UIView* parentView = fromView.superview;
+        [parentView addSubview:toView];
+        [UIView transitionWithView:parentView duration:duration options:options animations:animations completion:^(BOOL finished){
+            [fromView removeFromSuperview];
+            OnTransitionEndedBlock(finished);
         }];
     }
 }
