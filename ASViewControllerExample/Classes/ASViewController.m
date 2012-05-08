@@ -236,6 +236,10 @@ forObjectsPassingTest:(BOOL (^)(id obj, NSUInteger idx, BOOL *stop))predicate
         [super transitionFromViewController:fromViewController toViewController:toViewController duration:duration options:options animations:animations completion:completion];
     }
     else{
+        if (fromViewController.parentViewController != toViewController.parentViewController) {
+            NSString* reason = [NSString stringWithFormat:@"Children view controllers %@ and %@ must have a common parent view controller when calling -[UIViewController transitionFromViewController:toViewController:duration:options:animations:completion:]", fromViewController, toViewController];
+            [[NSException exceptionWithName:NSInvalidArgumentException reason:reason userInfo:nil] raise];
+        }
         BOOL animated = duration>0;
         [fromViewController viewWillDisappear:animated];
         [toViewController viewWillAppear:animated];
